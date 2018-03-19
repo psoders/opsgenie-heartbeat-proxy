@@ -11,7 +11,7 @@ Docker container can be pulled here `traumfewo/opsgenie-heartbeat-proxy`.
 
 Provide OpsGenie API Key and Heartbeat name as env variable.
 
-`docker run -e OPSGENIE_API_KEY='<API-KEY>' -e HEARTBEAT_NAME='<HEARTBEAT_NAME>' -d -p 8080:8080 traumfewo/opsgenie-heartbeat-proxy:latest`
+`docker run -e OPSGENIE_API_KEY='<API-KEY>' -e HEARTBEAT_URL='<HEARTBEAT_URL>' -d -p 8080:8080 traumfewo/opsgenie-heartbeat-proxy:latest`
 
 For debbuging purpose you can use optional `DEBUG` env.
 
